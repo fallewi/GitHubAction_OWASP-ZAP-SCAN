@@ -3,7 +3,7 @@ name: OWASP ZAP Integration with GitHub Actions
 on: [push]
 
 jobs:
-  zap_scan:
+  dast:
     runs-on: ubuntu-latest
     name: Scan the web application
     steps:
